@@ -1,18 +1,15 @@
-"use client";
+'use client'
 
-import Header from "./header";
-import Sidebar from "./sidebar";
-import Main from "./main";
-import InnerForm from "./form";
+import Sidebar from '@/components/others/sidebar'
+import Main from '@/components/others/main'
 
 export default function PersonalForm() {
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* <Header />
-      <div className="flex">
-        <Sidebar /> */}
-      <InnerForm />
-      {/* </div> */}
-    </div>
-  );
+    <main className='h-screen bg-[#fafafa]'>
+      <div className='h-full grid grid-cols-3'>
+        <Sidebar />
+        <Main />
+      </div>
+    </main>
+  )
 }
