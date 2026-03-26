@@ -7,7 +7,7 @@ import { Textarea } from '@/components/ui/textarea'
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu'
 
 import { ArrowRight, ChevronDown } from 'lucide-react'
-import { kebabCase, get, camelCase, isEmpty } from 'lodash'
+import { kebabCase, isEmpty } from 'lodash'
 
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
